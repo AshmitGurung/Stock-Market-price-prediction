@@ -1,7 +1,5 @@
 # Stock-market-price-prediction
 
-# Stock Price Prediction
-
 This project aims to predict stock prices using historical data and machine learning techniques. The prediction model is built using LSTM neural networks to provide accurate forecasting based on trends.
 
 ## Features
@@ -18,9 +16,7 @@ To run this project locally, follow the steps below:
 
 ### Step 1: Clone the repository
 
-```bash
-git clone https://github.com/yourusername/stock-price-prediction.git
-cd stock-price-prediction
+
 
 
 
