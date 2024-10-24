@@ -11,7 +11,30 @@ This project aims to predict stock prices using historical data and machine lear
 - Deploy the prediction model in an interactive web app using `streamlit`.
   
 
-##Usage
+## Usage
+
+# Predicting Stock Prices
+1.Launch the Application: Run main_app.py using Streamlit.
+2.Enter Stock Symbol: Input the stock symbol (e.g., 'GOOG') in the provided text box.
+3.Visualize Stock Data: View historical data and moving averages.
+4.Predict Prices: The app will display predicted prices alongside actual prices. Analyze the prediction accuracy using visual plots and error metrics.
+
+# Training a New Model
+1.Navigate to the "Train Model" Tab.
+2.Enter Stock Symbol and Date Range: Input the stock symbol and select the date range for training data.
+3.Train the Model: The app will train a new LSTM model based on the provided data and save it for future predictions.
+
+# Dependencies
+-numpy
+-pandas
+-yfinance
+-keras
+-tensorflow
+-streamlit
+-matplotlib
+-scikit-learn
+
+For detailed version information, see the requirements.txt file.
 
 
 
