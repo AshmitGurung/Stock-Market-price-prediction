@@ -10,12 +10,8 @@ This project aims to predict stock prices using historical data and machine lear
 - Visualize stock price trends and predictions using `matplotlib`.
 - Deploy the prediction model in an interactive web app using `streamlit`.
   
-## Installation
 
-To run this project locally, follow the steps below:
-
-### Step 1: Clone the repository
-
+##Usage
 
 
 
