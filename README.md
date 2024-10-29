@@ -9,6 +9,17 @@ This project aims to predict stock prices using historical data and machine lear
 - Build predictive models using `tensorflow` and `keras`.
 - Visualize stock price trends and predictions using `matplotlib`.
 - Deploy the prediction model in an interactive web app using `streamlit`.
+
+
+# Project Structure
+-main_app.py: The main application script that ties all components together using Streamlit.<br>
+-data_preprocessing.py: Handles data loading, preprocessing, and scaling.<br>
+-plotting.py: Manages plotting of stock prices, moving averages, and prediction errors.<br>
+-model_prediction.py: Contains functions to make predictions with the LSTM model and calculate errors.<br>
+-model_training.py: Contains functions to prepare data, train the LSTM model, and save the trained model.<br>
+-Stock Predictions Model.keras: A pre-trained LSTM model for stock price prediction.<br>
+-requirements.txt: Lists the required Python libraries and packages for the project.<br>
+-README.md: Project documentation.
   
 
 ## Usage
