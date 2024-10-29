@@ -73,6 +73,13 @@ Integrates all modules into a cohesive Streamlit application.<br>
 Manages user input, calls necessary functions from other modules, and displays results.
 
 
+# Future Improvements
+Additional Model Types: Implement and compare different model architectures (e.g., GRU, Transformer).<br>
+Real-Time Predictions: Integrate real-time stock data for up-to-date predictions.<br>
+Model Hyperparameter Tuning: Add functionality to tune hyperparameters through the UI.<br>
+Enhanced Visualization: Improve the visual appeal and interactivity of plots.
+
+
 
 
 
