@@ -44,6 +44,18 @@ This project aims to predict stock prices using historical data and machine lear
 For detailed version information, see the requirements.txt file.
 
 
+#Modules Overview
+
+##1. data_preprocessing.py
+
+Handles:
+
+-Loading stock data using yfinance.
+-Scaling and splitting data for training and testing.
+
+
+
+
 
 
 
