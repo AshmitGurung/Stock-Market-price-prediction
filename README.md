@@ -25,21 +25,14 @@ This project aims to predict stock prices using historical data and machine lear
 3.Train the Model: The app will train a new LSTM model based on the provided data and save it for future predictions.
 
 # Dependencies
--numpy
-
--pandas
-
--yfinance
-
--keras
-
--tensorflow
-
--streamlit
-
--matplotlib
-
--scikit-learn
+-numpy<br>
+-pandas<br>
+-yfinance<br>
+-keras<br>
+-tensorflow<br>
+-streamlit<br>
+-matplotlib<br>
+-scikit-learn<br>
 
 For detailed version information, see the requirements.txt file.
 
@@ -50,7 +43,7 @@ For detailed version information, see the requirements.txt file.
 
 Handles:
 
--Loading stock data using yfinance.
+-Loading stock data using yfinance.<br>
 -Scaling and splitting data for training and testing.
 
 
