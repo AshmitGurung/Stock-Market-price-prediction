@@ -26,12 +26,19 @@ This project aims to predict stock prices using historical data and machine lear
 
 # Dependencies
 -numpy
+
 -pandas
+
 -yfinance
+
 -keras
+
 -tensorflow
+
 -streamlit
+
 -matplotlib
+
 -scikit-learn
 
 For detailed version information, see the requirements.txt file.
