@@ -37,14 +37,40 @@ This project aims to predict stock prices using historical data and machine lear
 For detailed version information, see the requirements.txt file.
 
 
-#Modules Overview
+# Modules Overview
 
-##1. data_preprocessing.py
+## 1. data_preprocessing.py
 
 Handles:
 
 -Loading stock data using yfinance.<br>
 -Scaling and splitting data for training and testing.
+
+## 2. plotting.py
+
+Provides:
+
+Functions to plot stock prices and moving averages.<br>
+Functions to visualize the difference between actual and predicted prices.
+
+## 3. model_prediction.py
+
+Includes:
+
+Functions to load and use the LSTM model for predictions.<br>
+Error calculation and scaling back predictions to original price range.
+
+## 4. model_training.py
+
+Handles:
+
+Data preparation for model training.<br>
+Training and saving the LSTM model.
+
+## 5. main_app.py
+
+Integrates all modules into a cohesive Streamlit application.<br>
+Manages user input, calls necessary functions from other modules, and displays results.
 
 
 
