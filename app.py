@@ -6,7 +6,7 @@ from model_prediction import make_predictions, scale_predictions, calculate_erro
 from model_training import prepare_data, create_and_train_model, save_model_to_file
 
 # Streamlit UI
-st.title('Stock Market Predictor and Model Trainer')
+st.title('Stock Market Predictor and Model Tariner')
 
 tab1, tab2 = st.tabs(["Predict Stock Prices", "Train Model"])
 
@@ -23,7 +23,7 @@ with tab1:
         # Load and preprocess data
         data, data_train, data_test, scaler, data_test_scaled = load_and_preprocess_data(stock, start, end)
 
-        st.subheader('Stock Data')
+        st.subheader('Stock dData')
         st.write(data)
 
         # Plot moving averages
